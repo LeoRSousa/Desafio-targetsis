@@ -1,3 +1,4 @@
+## Objetivo
 Repositório feito para resolução do desafio técnico da Target Sistemas, para o cargo Desenvolvedor de Sistemas Jr.
 
 O desafio deveria ser concluído em 50 minutos.
@@ -5,7 +6,10 @@ Nesses 50 minutos eu fiz a questão 01, 03, 04 e 05.
 
 A questão 02 não foi feita, por falta de tempo, mas está incluída no repositório ainda assim.
 
-Os únicos arquivos editados após o termino dos 50 minutos foram o arquivo 02.js e o README.js
+Os únicos arquivos editados após o termino dos 50 minutos foram o arquivo 02.js, o README.md, o index.js (para rodar todos aquivos de uma vez) e o package.json
+
+## Como rodar?
+npm start
 
 
 Cada arquivo é responsável por responder a um dos problemas abaixo:
