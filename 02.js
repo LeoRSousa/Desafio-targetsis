@@ -6,8 +6,6 @@ retorne uma mensagem avisando se o número informado pertence ou não a sequênc
 IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código; 
 */
 
-//OBS: NÃO FOI FEITA DENTRO DOS 50 MINUTOS
-
 function sequenciaFibonacci(num) {
     var fibonacci = [0, 1]; // Inicia a sequência com os dois primeiros valores
 
@@ -18,11 +16,11 @@ function sequenciaFibonacci(num) {
     }
 
     if (fibonacci.includes(num)) return `O número ${num} pertence à sequência de Fibonacci.`;
-    else return `O número ${num} NÃO pertence à sequência de Fibonacci.`
+    else return `O número ${num} NÃO pertence à sequência de Fibonacci.`;
 }
 
 const numeros = [3,4,5,6,7,8,9,21];
 numeros.forEach(numero => {
     const fibonacci = sequenciaFibonacci(numero);
-    console.log(fibonacci)
+    console.log(fibonacci);
 });

@@ -58,7 +58,7 @@ try {
                 }
             }
 
-            console.log(`Menor valor: ${menorValor}\nMaior valor: ${maiorValor}\nNúmero de dias no mês em que o valor de faturamento diário foi superior à média mensal (${media.toFixed(2)}): ${diasMaiorQueMedia}`)
+            console.log(`Menor valor de faturamento ocorrido em um dia do mês: $${menorValor.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}\nMaior valor de faturamento ocorrido em um dia do mês: $${maiorValor.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}\nNúmero de dias no mês em que o valor de faturamento diário foi superior à média mensal ($${media.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}): ${diasMaiorQueMedia} dias`)
         }
     })
 } catch (error) {

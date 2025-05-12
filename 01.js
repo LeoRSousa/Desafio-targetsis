@@ -6,12 +6,13 @@ Imprimir(SOMA);
 Ao final do processamento, qual será o valor da variável SOMA? 
 */
 
-const indice = 13
-var soma = 0
-var k = 0
+const indice = 13;
+var soma = 0;
+var k = 0;
 
 while (k < indice) {
-    k = k + 1
-    soma = soma + k
-    console.log(soma)
+    k = k + 1;
+    soma = soma + k;
 }
+
+console.log(`Ao final do processamento, o valor da variável SOMA será ${soma}! `);
